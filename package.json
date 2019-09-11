@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --require coffeescript/register merge.test.coffee"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "coffeescript": "^2.4.1",
