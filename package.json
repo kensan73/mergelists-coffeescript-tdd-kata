@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --require coffeescript/register merge.test.coffee"
+    "test": "yarn mocha --require coffeescript/register merge.test.coffee"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "coffeescript": "^2.4.1",
     "expect": "^24.9.0",
+    "given": "^1.0.1",
     "mocha": "^6.2.0"
   },
   "dependencies": {
