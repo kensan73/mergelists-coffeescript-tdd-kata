@@ -3,8 +3,7 @@
 mocha = require 'mocha'
 Given = require 'given'
 
-describe = mocha.describe
-it = mocha.it
+{describe, it} = mocha
 
 merge = require './merge'
 expect = require 'expect'
